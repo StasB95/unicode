@@ -1,0 +1,159 @@
+.post {
+  max-width: 1680px;
+  width: 91%;
+  min-height: 962px;
+  margin: 40px auto;
+  background-color: #ffffff;
+
+  @media (max-width: @tablet-width) {
+    min-width: 320px;
+  }
+}
+.post-wrapper {
+  padding: 120px 80px;
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: @desktop-width) {
+    flex-wrap: wrap;
+    padding: 100px 60px;
+  }
+
+  @media (max-width: @tablet-width) {
+    padding: 60px 20px;
+  }
+}
+.post-content {
+  max-width: 750px;
+  width: 45%;
+
+  @media (max-width: @desktop-width) {
+    width: 90%;
+  }
+
+  @media (max-width: @tablet-width) {
+    width: 95%;
+  }
+}
+.post-content-title {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 30px;
+  font-family: "Monserrat-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+
+  @media (max-width: @desktop-width) {
+    text-align: center;
+  }
+
+  @media (max-width: @tablet-width) {
+    font-size: 32px;
+  }
+}
+.post-content-text {
+  height: auto;
+  margin: 0 auto 80px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+
+  @media (max-width: @desktop-width) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  @media (max-width: @tablet-width) {
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+}
+.post-content-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (max-width: @desktop-width) {
+   justify-content: space-around;
+  }
+}
+.post-content-item {
+  width: 173px;
+  height: 76px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  background-image: url("../img/rectangle-small.svg");
+}
+.post-card {
+  max-width: 686px;
+  width: 45%;
+  min-height: 772px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  @media (max-width: @desktop-width) {
+    width: 760px;
+    min-height: none;
+  }
+  
+  @media (max-width: @tablet-width) {
+
+  }
+}
+.post-card-img {
+  width: 686px;
+  height: 400px;
+
+  @media (max-width: @desktop-width) {
+    width: 100%;
+  }
+}
+.post-card-title {
+  margin-top: 71px;
+  margin-bottom: 25px;
+  padding: 0 64px;
+  font-family: "Monserrat-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  @media (max-width: @desktop-width) {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0 44px;
+  }
+  
+  @media (max-width: @tablet-width) {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0 44px;
+  }
+}
+.post-card-text {
+  padding: 0 64px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  @media (max-width: @desktop-width) {
+    padding: 0 44px;
+  }
+  
+  @media (max-width: @tablet-width) {
+  }
+}
+
+
+@media (max-width: @desktop-width) {
+}
+
+@media (max-width: @tablet-width) {
+}
